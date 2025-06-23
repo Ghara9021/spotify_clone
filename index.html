@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Images/logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="cover">
+                    <div class="songInfo">
+                        <span class="songTitle">Mortals</span>
+                        <span class="timestamp">03:48</span>
+                    </div>
+                    <img src="Icons/play.svg" alt="Play" id="0" class="playIcon">
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="cover">
+                    <div class="songInfo">
+                        <span class="songTitle">Numb</span>
+                        <span class="timestamp">03:05</span>
+                    </div>
+                    <img src="Icons/play.svg" alt="Play" id="1" class="playIcon">
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="cover">
+                    <div class="songInfo">
+                        <span class="songTitle">Ghost</span>
+                        <span class="timestamp">03:32</span>
+                    </div>
+                    <img src="Icons/play.svg" alt="Play" id="2" class="playIcon">
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="cover">
+                    <div class="songInfo">
+                        <span class="songTitle">Let me Love You</span>
+                        <span class="timestamp">03:25</span>
+                    </div>
+                    <img src="Icons/play.svg" alt="Play" id="3" class="playIcon">
+                </div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="cover">
+                    <div class="songInfo">
+                        <span class="songTitle">Battle Symphony</span>
+                        <span class="timestamp">03:36</span>
+                    </div>
+                    <img src="Icons/play.svg" alt="Play" id="4" class="playIcon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <img src="Icons/backward.svg" alt="previous" width="24" height="24" id="previous">
+            <img src="Icons/play.svg" alt="Play" width="24" height="24" id="masterPlay">
+            <img src="Icons/forward.svg" alt="next" width="24" height="24" id="next">
+        </div>
+        <div class="songDescription">
+            <img src="Images/playing.gif" width="42px" alt="playing" id="gif">
+            <span id="masterSongName">Mortals</span>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
