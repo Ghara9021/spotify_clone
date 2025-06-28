@@ -9,7 +9,7 @@ A simple yet functional **Spotify-inspired music player** built using **HTML, CS
 - 🎧 **5-song playlist** with song titles, artist names, and album artwork
 - ▶️ **Play**, ⏸️ **Pause**, ⏭️ **Next**, and ⏮️ **Previous** button functionality
 - 🎛️ **Interactive bottom navigation bar** for easy music control
-- 💡 Responsive and intuitive UI using custom CSS
+- 💡 Responsive and intuitive UI using custom **CSS**
 - ⚙️ JavaScript-based **audio control logic** and dynamic DOM updates
 
 ## 🖼️ Preview
