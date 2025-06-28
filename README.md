@@ -14,7 +14,9 @@ A simple yet functional **Spotify-inspired music player** built using **HTML, CS
 
 ## 🖼️ Preview
 
-> _Add screenshots or screen recordings here if possible_
+> ## 🖼️ Preview
+
+![Spotify Clone Preview](./images/Web_interface.png)
 
 ## 🚀 Getting Started
 
