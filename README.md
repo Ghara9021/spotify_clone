@@ -22,5 +22,5 @@ A simple yet functional **Spotify-inspired music player** built using **HTML, CS
 Clone the repository and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/yourusername/spotify-clone.git
+git clone https://github.com/Ghara9021/spotify-clone.git
 cd spotify-clone
